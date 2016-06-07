@@ -1,9 +1,6 @@
 $(document).ready(function(){
 
 
-
-
-
   // $('#count').submit(function(event){
   //   event.preventDefault();
 
@@ -69,9 +66,45 @@ $(document).ready(function(){
 
     // PRIME FINDER
 
-    
+    // $("#primeFinder").submit(function(event){
+    //   event.preventDefault();
+    //
+    //   var number = parseInt($("#primeInput").val());
+    //   var primeNumbers = [];
+    //
+    //   for (var counter = 0; counter <= number; counter++) {
+    //
+    //       var notPrime = false;
+    //       for (var i = 2; i <= counter; i++) {
+    //           if (counter%i===0 && i!==counter) {
+    //               notPrime = true;
+    //           }
+    //       }
+    //       if (notPrime === false) {
+    //           primeNumbers.push(counter);
+    //       }
+    //   }
+    //
+    //
+    //
+    //
+    //  $("#output").append("<p>" + primeNumbers + "</p>");
+    // });
 
+    // FACTORIAL OPERATOR
+
+    $("#factor").submit(function(event){
+      event.preventDefault();
+
+      var number = parseInt($("#factorInput").val());
+      var total = 1;
+      // console.log(number);
+      for (i=0 ; i < number; i++){
+          console.log(total *= (number - i));
+      }
+      
+    });
 
     });
-  });
+  // });
 // });
