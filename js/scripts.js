@@ -29,8 +29,8 @@ $(document).ready(function(){
 
     // WORD PUZZLE -- HIDING THE VOWELS
 
-    $('#quotePuzzle').submit(function(event){
-      event.preventDefault();
+    // $('#quotePuzzle').submit(function(event){
+    //   event.preventDefault();
 
     // var quote = $("#quoteToPuzzle").val().toLowerCase().split([','[String.length]]);
     // var newQuote = "";
@@ -53,19 +53,25 @@ $(document).ready(function(){
     //   $(".container").children().toggle();
 
     // PALINDROMES
+    // $('#palindromeTest').submit(function(event){
+    //   event.preventDefault();
+    //
+    // var word = $("#potentialPalindrome").val().split([','[String.length]]);
+    // var wordReverse = word.slice().reverse();
+    // console.log(word);
+    // console.log(wordReverse);
+    //
+    // if (word.toString() === wordReverse.toString()) {
+    //   alert("You have a palindrome!");
+    // } else {
+    //   alert("Sorry, not a palindrome. Try again.");
+    // }
 
-    $('#palindromeInput').submit(function(event){
-      event.preventDefault();
+    // PRIME FINDER
 
-      
-
-
-
-
-
-
+    
 
 
     });
   });
-});
+// });
